@@ -24,14 +24,11 @@ values."
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
      auto-completion
-     better-defaults
+     ;; better-defaults
      emacs-lisp
      git
      markdown
      org
-     ;; (shell :variables
-     ;;        shell-default-height 30
-     ;;        shell-default-position 'bottom)
      spell-checking
      syntax-checking
      version-control
@@ -39,6 +36,15 @@ values."
      php
      eldoc
      helm-gtags
+     html
+     javascript
+     sql
+     yaml
+     xkcd
+     github
+     shell
+     ranger
+     deer
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -253,6 +259,11 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+  (setq
+    php-mode-coding-style (quote psr2)
+    php-template-compatibility nil
+    flycheck-phpcs-standard "PSR2"
+   )
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

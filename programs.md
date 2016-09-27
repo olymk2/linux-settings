@@ -9,6 +9,16 @@ A list of all the packages I find and should install on new systems
 - [KeePassX](https://www.keepassx.org/) | [keepassx2](https://www.archlinux.org/packages/community/x86_64/keepassx2/) - Password manager
 - [ZSH](http://www.zsh.org/) | [zsh](https://www.archlinux.org/packages/extra/x86_64/zsh/) - Requirement for Oh My ZSh which makes your terminal better
 
+#### PHP Packages
+
+- [PHP](http://www.php.net/) | [php](https://www.archlinux.org/packages/extra/x86_64/php/)
+- [Composer](https://getcomposer.org/) | [composer](https://www.archlinux.org/packages/extra/any/composer/) - Allows PHP packages to be installed perproject
+- [XDebug](https://xdebug.org/) | [xdebug](https://www.archlinux.org/packages/community/x86_64/xdebug/) - Package which allows debugging running PHP
+
+#### Gaming Packages
+
+- [Steam](http://store.steampowered.com/) | [steam](https://www.archlinux.org/packages/multilib/x86_64/steam/) - Gaming platform
+
 ### Aur packages
 
 - [Google Chrome](https://www.google.com/chrome/) | [google-chrome-dev](https://aur.archlinux.org/packages/google-chrome-dev/) - Best browser in risky unstable mode
@@ -19,12 +29,6 @@ A list of all the packages I find and should install on new systems
 - [Nylas N1](https://nylas.com/) | [n1](https://aur.archlinux.org/packages/n1/) - Cross platform email client
 - [Keybase](https://keybase.io/) | [keybase-bin](https://aur.archlinux.org/packages/keybase-bin/) - GPG Key managment software
 - [Ramboc](http://rambox.pro/) | [rambox-bin](https://aur.archlinux.org/packages/keybase-bin/) - Chat Social Media manager
-
-#### PHP Packages
-
-- [PHP](http://www.php.net/) | [php](https://www.archlinux.org/packages/extra/x86_64/php/)
-- [Composer](https://getcomposer.org/) | [composer](https://www.archlinux.org/packages/extra/any/composer/) - Allows PHP packages to be installed perproject
-- [XDebug](https://xdebug.org/) | [xdebug](https://www.archlinux.org/packages/community/x86_64/xdebug/) - Package which allows debugging running PHP
 
 ## Gnome Extensions
 - [Easy Screen Cast](https://iacopodeenosee.wordpress.com/projects/easyscreencast/)| [easyscreencast](https://extensions.gnome.org/extension/690/easyscreencast/) - Small GNOME app which allows you to record your screen. (When using with chrome enable system title bars
@@ -40,4 +44,5 @@ Great packages which sometimes take a bit longer to install
 ```
 yaourt -S redshift zsh keepassx2 php composer xdebug docker docker-compose
 yaourt -S phpstorm-eap etcher feed-reader n1 keybase-bin rambox-bin google-chrome-dev
+yaourt -S steam
 ```

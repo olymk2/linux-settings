@@ -29,6 +29,7 @@ A list of all the packages I find and should install on new systems
 - [Nylas N1](https://nylas.com/) | [n1](https://aur.archlinux.org/packages/n1/) - Cross platform email client
 - [Keybase](https://keybase.io/) | [keybase-bin](https://aur.archlinux.org/packages/keybase-bin/) - GPG Key managment software
 - [Ramboc](http://rambox.pro/) | [rambox-bin](https://aur.archlinux.org/packages/keybase-bin/) - Chat Social Media manager
+- [Ngrok](https://ngrok.com/) | [ngrok-bin](https://aur.archlinux.org/packages/ngrok-bin/) - Gets around natting
 
 ## Gnome Extensions
 - [Easy Screen Cast](https://iacopodeenosee.wordpress.com/projects/easyscreencast/)| [easyscreencast](https://extensions.gnome.org/extension/690/easyscreencast/) - Small GNOME app which allows you to record your screen. (When using with chrome enable system title bars
@@ -43,6 +44,6 @@ Great packages which sometimes take a bit longer to install
 ## Install Command
 ```
 yaourt -S redshift zsh keepassx2 php composer xdebug docker docker-compose
-yaourt -S phpstorm-eap etcher feed-reader n1 keybase-bin rambox-bin google-chrome-dev
+yaourt -S phpstorm-eap etcher feed-reader n1 keybase-bin rambox-bin google-chrome-dev ngrok-bin
 yaourt -S steam
 ```

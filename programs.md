@@ -33,7 +33,7 @@ A list of all the packages I find and should install on new systems
 
 ## Gnome Extensions
 - [Easy Screen Cast](https://iacopodeenosee.wordpress.com/projects/easyscreencast/)| [easyscreencast](https://extensions.gnome.org/extension/690/easyscreencast/) - Small GNOME app which allows you to record your screen. (When using with chrome enable system title bars
-- [Open Weather](https://github.com/jenslody/gnome-shell-extension-openweather) | [https://extensions.gnome.org/extension/750/openweather/] - Shows you the weather forcast and current weather
+- [Open Weather](https://github.com/jenslody/gnome-shell-extension-openweather) | [openweather](https://extensions.gnome.org/extension/750/openweather/) - Shows you the weather forcast and current weather
 
 ## Manuall Install
 Great packages which sometimes take a bit longer to install

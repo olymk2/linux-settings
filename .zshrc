@@ -85,3 +85,4 @@ source $ZSH/oh-my-zsh.sh
 alias docker_ips='docker ps -q | xargs -n 1 docker inspect --format "{{ .NetworkSettings.IPAddress }} {{ .Name }}" | sed "s/ \// /"'
 alias git_diff="git difftool --dir-diff"
 alias git_history="git for-each-ref --sort='-authordate:iso8601' --format=' %(authordate:relative)%09%(refname:short)' refs/heads | tac"
+alias dps='docker ps -q | xargs docker inspect --format="{{printf \"%.20s\" .Name}} @ {{printf \"%.40s\" .Config.Image}} @ http://{{if ne \"\" .NetworkSettings.IPAddress}}{{ printf \"%.22s\" .NetworkSettings.IPAddress}}{{else}}{{range .NetworkSettings.Networks}}{{printf \"%.22s\" .IPAddress}}{{end}}{{end}} @ {{printf \"%.10s\" .State.Status}}" | column -t -s@ -c 80'

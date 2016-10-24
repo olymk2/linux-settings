@@ -3,8 +3,10 @@
 * Org Mode
 ** Time Tracking
    One of the best features of Org Mode is its powerful time tracking. Its just another way Org can manage your life. Below are a few commands to try out:
-*** Clocking In and Outline
+*** Clocking In and Out
     When you are in a task you can easily clock in and out with C-c C-x C-i and out with C-c C-x C-o
+**** Getting your current clocked in task
+     If you are clocked into a task and want to jump to it you can use C-c C-x C-d
 *** Displaying times inline
     You can quickly show the times logged by each issue with C-c C-x C-d
 *** Clock Tables

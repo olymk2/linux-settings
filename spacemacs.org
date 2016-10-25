@@ -17,3 +17,12 @@
      #+BEGIN: clocktable :maxlevel 10 :block today :scope file
       When using this clock table you can switch between days with S-<left> S-<right>
       If you have lots of files with times in and have setup your agenda you can change the scope to agenda 
+
+
+* Code Samples 
+   ** syntax highlighting for code
+   You can type the below or shorthand with <s [tab]
+   
+   #+BEGIN_SRC python
+   print('My python code')
+   #+END_SRC 
